@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>http://techtalentsouth.com/</loc>
+		<changefreq>daily</changefreq>
+    	<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com//</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/about</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/alumni</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/locations</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/faq</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/youthcode</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/college-cram</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/webdev</loc>
+	</url>
+	<url>
+		<loc>http://techtalentsouth.com/#!/contact</loc>
+	</url>
+</urlset>

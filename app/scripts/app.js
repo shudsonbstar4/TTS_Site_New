@@ -7,10 +7,11 @@ angular.module('ttsApp', [
   'ngRoute',
   'ui.bootstrap'
 ])
-  .config(function ($routeProvider, $locationProvider) {
-    $locationProvider
-      .html5Mode(false)
-      .hashPrefix('!');
+  .config(function ($routeProvider, $locationProvider, $provide) {
+    $provide.decorator('$sniffer', function($delegate) {
+      $delegate.history = false;
+      return $delegate;
+    });
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -51,4 +52,9 @@ angular.module('ttsApp', [
       .otherwise({
         redirectTo: '/'
       });
-  })
+
+      $locationProvider
+      .html5Mode(true)
+      .hashPrefix('!');
+  });
+  

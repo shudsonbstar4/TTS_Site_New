@@ -7,8 +7,8 @@ angular.module('ttsApp')
     //DROPDOWN
 
     $scope.dropdownLinks = [
-        {"title": "Youth Code Camps", "url": "#!/youthcode"},
-        {"title": "College Cram Session", "url": "#!/college-cram"}
+        {"title": "Youth Code Camps", "url": "/youthcode"},
+        {"title": "College Cram Session", "url": "/college-cram"}
     ];
 
     //DATA
